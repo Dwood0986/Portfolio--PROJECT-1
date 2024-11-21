@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Wood Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007bff;
+            color: #fff;
+            padding: 1rem 2rem;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        section h2 {
+            grid-column: 1 / -1; /* Spans full width */
+            margin-bottom: 1rem;
+        }
+
+        /* Project Cards */
+        .project {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        .project-info {
+            padding: 1rem;
+        }
+        .project-info h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            header img {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>David Wood Portfolio</h1>
+            <p>Full Stack Developer | Innovating One Project at a Time</p>
+        </div>
+        <img src="profile.jpg" alt="Profile Picture">
+    </header>
+    <main>
+        <section>
+            <h2>Featured Projects</h2>
+
+            <article class="project">
+                <img src="project1.jpg" alt="Project 1 Screenshot">
+                <div class="project-info">
+                    <h3>Project 1: AI Meme Generator</h3>
+                    <p>A Python-based tool that generates memes and GIFs using AI. It includes a user-friendly interface and advanced customization options.</p>
+                    <p><strong>Technologies:</strong> Python, OpenAI API, Flask</p>
+                </div>
+            </article>
+
+            <article class="project">
+                <img src="project2.jpg" alt="Project 2 Screenshot">
+                <div class="project-info">
+                    <h3>Project 2: Haunted House Mystery Game</h3>
+                    <p>A spooky interactive website designed for Halloween, featuring a choose-your-own-adventure format and hidden puzzles.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                </div>
+            </article>
+
+            <article class="project">
+                <img src="project3.jpg" alt="Project 3 Screenshot">
+                <div class="project-info">
+                    <h3>Project 3: Inventory Management System</h3>
+                    <p>A robust system for managing office inventory, complete with tracking, reporting, and automation features.</p>
+                    <p><strong>Technologies:</strong> C#, ASP.NET, SQL</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 David Wood. All rights reserved.</p>
+    </footer>
+</body>
+</html>
