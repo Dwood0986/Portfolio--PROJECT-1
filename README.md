@@ -9,7 +9,7 @@ This is a portfolio website built with HTML, CSS, and JavaScript. It features:
 - **Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices.
 - **Interactive Elements:** Includes a "Copy to Clipboard" button for the email address.
 
-[View the live site here](https://<your-username>.github.io/<repository-name>/)
+[View the live site here](https://dwood0986.github.io/Portfolio--PROJECT-1/)
 
 ## Technologies Used
 - HTML
